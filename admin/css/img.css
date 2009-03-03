@@ -1,0 +1,16 @@
+#img_form label {
+  display: block;
+  font-weight: bold;
+}
+
+p.error {
+  background-color: #FFAAAA;
+  border: 2px solid #660000;
+  padding: 2px;
+}
+
+p.notice {
+  background-color: #AAFFAA;
+  border: 2px solid #006600;
+  padding: 2px;
+}
