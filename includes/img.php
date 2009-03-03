@@ -1,19 +1,5 @@
 <?php
 
-/*
-Förutsätter att följande tabell finns:
-
-CREATE TABLE image(
-  id INT NOT NULL AUTO_INCREMENT,
-  slide VARCHAR(100) NOT NULL DEFAULT '',
-  name VARCHAR(100) NOT NULL DEFAULT '',
-  filename VARCHAR(200) NOT NULL,
-  description TEXT NOT NULL,
-  PRIMARY KEY(id),
-  INDEX idx_slide(slide)
-);
-*/
-
 /**
  * Sätter eller hämtar ett konfigurationsvärde.
  */
